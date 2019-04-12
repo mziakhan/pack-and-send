@@ -27,5 +27,6 @@ public class DateUtility {
 		DateFormat dateFormat  = new SimpleDateFormat("MM-dd-yyyy");
 		String stringDate = dateFormat.format(utilDate);
 		return stringDate;
+		
 	}
 }  
