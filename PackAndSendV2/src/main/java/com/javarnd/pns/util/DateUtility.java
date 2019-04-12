@@ -16,4 +16,8 @@ public class DateUtility {
 		java.sql.Date sqlStartDate = new java.sql.Date(utilDate.getTime());
 		return sqlStartDate;
 	}
+	public static java.sql.Date dateToSqlDate(java.util.Date utilDate) {
+		java.sql.Date sqlDate = new java.sql.Date(utilDate.getTime());
+		return sqlDate;
+	}
 }
